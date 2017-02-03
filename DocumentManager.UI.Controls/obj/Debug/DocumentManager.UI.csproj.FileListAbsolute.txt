@@ -1,0 +1,10 @@
+C:\inetpub\dotnetnuke\bin\DocumentManager.UI.Controls.dll
+C:\inetpub\dotnetnuke\bin\DocumentManager.UI.Controls.pdb
+C:\inetpub\dotnetnuke\DesktopModules\DocumentManager.UI.Controls\obj\Debug\DocumentManager.UI.csprojResolveAssemblyReference.cache
+C:\inetpub\dotnetnuke\DesktopModules\DocumentManager.UI.Controls\obj\Debug\DocumentManager.UI.Controls.dll
+C:\inetpub\dotnetnuke\DesktopModules\DocumentManager.UI.Controls\obj\Debug\DocumentManager.UI.Controls.pdb
+C:\Users\jgarcia\Documents\Github\DocumentCore\DocumentManager.UI.Controls\obj\Debug\DocumentManager.UI.csprojResolveAssemblyReference.cache
+C:\Users\jgarcia\Documents\Github\DocumentCore\DocumentManager.UI.Controls\obj\Debug\DocumentManager.UI.Controls.dll
+C:\Users\jgarcia\Documents\Github\DocumentCore\DocumentManager.UI.Controls\obj\Debug\DocumentManager.UI.Controls.pdb
+C:\Users\jgarcia\Documents\Github\bin\DocumentManager.UI.Controls.dll
+C:\Users\jgarcia\Documents\Github\bin\DocumentManager.UI.Controls.pdb

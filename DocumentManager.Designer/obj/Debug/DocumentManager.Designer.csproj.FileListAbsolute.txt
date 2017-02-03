@@ -1,0 +1,7 @@
+C:\Users\jgarcia\Documents\Github\DocumentCore\DocumentManager.Designer\obj\Debug\DocumentManager.Designer.csprojResolveAssemblyReference.cache
+C:\Users\jgarcia\Documents\Github\bin\DocumentManager.Designer.dll
+C:\Users\jgarcia\Documents\Github\bin\DocumentManager.Designer.pdb
+C:\Users\jgarcia\Documents\Github\bin\es\DocumentManager.Designer.resources.dll
+C:\Users\jgarcia\Documents\Github\DocumentCore\DocumentManager.Designer\obj\Debug\es\DocumentManager.Designer.resources.dll
+C:\Users\jgarcia\Documents\Github\DocumentCore\DocumentManager.Designer\obj\Debug\DocumentManager.Designer.dll
+C:\Users\jgarcia\Documents\Github\DocumentCore\DocumentManager.Designer\obj\Debug\DocumentManager.Designer.pdb

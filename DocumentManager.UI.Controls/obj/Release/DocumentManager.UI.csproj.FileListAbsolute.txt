@@ -1,0 +1,5 @@
+C:\inetpub\dotnetnuke\DesktopModules\DocumentManager.UI.Controls\obj\Release\DocumentManager.UI.csprojResolveAssemblyReference.cache
+C:\inetpub\dotnetnuke\bin\DocumentManager.UI.Controls.dll
+C:\inetpub\dotnetnuke\bin\DocumentManager.UI.Controls.pdb
+C:\inetpub\dotnetnuke\DesktopModules\DocumentManager.UI.Controls\obj\Release\DocumentManager.UI.Controls.dll
+C:\inetpub\dotnetnuke\DesktopModules\DocumentManager.UI.Controls\obj\Release\DocumentManager.UI.Controls.pdb

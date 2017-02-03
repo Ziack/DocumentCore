@@ -1,0 +1,5 @@
+C:\Users\jgarcia\Documents\Github\DocumentCore\DocumentManager.Core\obj\Debug\DocumentManager.Core.csprojResolveAssemblyReference.cache
+C:\Users\jgarcia\Documents\Github\DocumentCore\DocumentManager.Core\obj\Debug\DocumentManager.Core.dll
+C:\Users\jgarcia\Documents\Github\DocumentCore\DocumentManager.Core\obj\Debug\DocumentManager.Core.pdb
+C:\Users\jgarcia\bin\DocumentManager.Core.dll
+C:\Users\jgarcia\bin\DocumentManager.Core.pdb

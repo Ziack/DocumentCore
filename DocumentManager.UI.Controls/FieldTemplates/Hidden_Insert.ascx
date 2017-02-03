@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Hidden_Insert.ascx.cs" Inherits="DocumentManager.UI.Controls.FieldTemplates.Hidden_Insert" %>
+<asp:HiddenField id="HiddenField" runat="server" Value="<%# FieldValue %>"/>
