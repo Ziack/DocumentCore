@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentType name="Content" handler="DocumentManager.Core.Base.Handlers.ContentHandler" xmlns="http://schemas.facturecolombia.com/ContentRepository/ContentTypeDefinition">
+  <DisplayName>Documento Base</DisplayName>
+  <Description></Description>
+  <Fields>
+    <Field name="Id" type="ContentID">
+      <DisplayName>Id</DisplayName>
+      <Description>Id</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <ReadOnly>true</ReadOnly>
+      </Configuration>
+    </Field>    
+    <Field name="Number" type="Hidden">
+      <DisplayName>Number</DisplayName>
+      <Description>Number</Description>
+      <Configuration>
+        <Required>false</Required>
+        <Handler></Handler>
+      </Configuration>
+    </Field>
+    <Field name="ValidFrom" type="DatePicker">
+      <DisplayName>Valid From</DisplayName>
+      <Description>Valid From</Description>
+      <Configuration>
+        <DateTimeMode>DateAndTime</DateTimeMode>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="ValidTill" type="DatePicker">
+      <DisplayName>Valid Until</DisplayName>
+      <Description>Valid Until</Description>
+      <Configuration>
+        <DateTimeMode>DateAndTime</DateTimeMode>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <Required>true</Required>
+      </Configuration>
+    </Field>
+    <Field name="CreationDate" type="DatePicker">
+      <DisplayName>Creation Date</DisplayName>
+      <Description>Creation Date</Description>
+      <Configuration>
+        <DateTimeMode>DateAndTime</DateTimeMode>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="CreatedBy" type="UserInfo">
+      <DisplayName>Created By</DisplayName>
+      <Description>Created By</Description>
+      <Configuration>
+        <Required>false</Required>
+      </Configuration>
+    </Field>
+    <Field name="IssueDate" type="DatePicker">
+      <DisplayName>Issue Date</DisplayName>
+      <Description>Issue Date</Description>
+      <Configuration>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <DateTimeMode>DateAndTime</DateTimeMode>
+      </Configuration>
+    </Field>    
+  </Fields>
+</ContentType>

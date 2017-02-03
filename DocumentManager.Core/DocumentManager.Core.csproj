@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{66EBBBF9-A74A-4565-BCA1-916D83820349}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DocumentManager.Core</RootNamespace>
+    <AssemblyName>DocumentManager.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Facture.PuertoBahia.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Facture.AppFabric.ActivityLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cfc35dca67902b06, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\bin\Facture.AppFabric.ActivityLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Facture.WorkflowServer.Extensions">
+      <HintPath>..\..\..\..\bin\Facture.WorkflowServer.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Facture.WorkflowServer.Hubs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\bin\Facture.WorkflowServer.Hubs.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\..\bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Core">
+      <HintPath>..\..\..\..\Bin\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\..\..\..\Bin\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\..\..\..\Bin\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\..\..\..\Bin\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Entity.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activities" />
+    <Reference Include="System.ServiceModel.Channels" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activities\Base\DocumentActionActivity.cs" />
+    <Compile Include="Activities\RevokeDocumentActivity.cs" />
+    <Compile Include="Activities\ValidateDocumentActivity.cs" />
+    <Compile Include="Activities\IssueDocumentActivity.cs" />
+    <Compile Include="Activities\SaveDocumentActivity.cs" />
+    <Compile Include="Attributes\ConstantAttribute.cs" />
+    <Compile Include="Attributes\ContentTypeAttribute.cs" />
+    <Compile Include="Attributes\ControlDependencyAttribute.cs" />
+    <Compile Include="Attributes\ArinControlKeyAttribute.cs" />
+    <Compile Include="Attributes\CausesControlAttribute.cs" />
+    <Compile Include="Attributes\IsBlockingAttribute.cs" />
+    <Compile Include="Attributes\ParametersAttribute.cs" />
+    <Compile Include="Attributes\GateNeedsModalAttribute.cs" />
+    <Compile Include="Attributes\DocTypeAttribute.cs" />
+    <Compile Include="Attributes\EditableAttribute.cs" />
+    <Compile Include="Attributes\DataPickerRadComboBoxAttribute.cs" />
+    <Compile Include="Attributes\FieldInfoAttribute.cs" />
+    <Compile Include="Attributes\ModuleUrlAttribute.cs" />
+    <Compile Include="Attributes\NumericConfigurationAttributes.cs" />
+    <Compile Include="Attributes\RelatedFieldAttribute.cs" />
+    <Compile Include="Attributes\SelectListAttributeMultiple.cs" />
+    <Compile Include="Attributes\SelectListStaticAttribute.cs" />
+    <Compile Include="Attributes\DateTimeAttributes.cs" />
+    <Compile Include="Attributes\F4ConfigurationAttribute.cs" />
+    <Compile Include="Attributes\InputWeightAttribute.cs" />
+    <Compile Include="Attributes\SelectListAttribute.cs" />
+    <Compile Include="Attributes\TypeAttribute.cs" />
+    <Compile Include="Attributes\UploadFileAttributes.cs" />
+    <Compile Include="Base\DocumentContentTypeConverter.cs" />
+    <Compile Include="Base\Handlers\Content.cs" />
+    <Compile Include="DocumentController.cs" />
+    <Compile Include="Extensions\Enum\EnumsExtensions.cs" />
+    <Compile Include="Field.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers\DataTableCustomTypeDescriptor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helpers\DictionaryObject\DictionaryObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helpers\DictionaryObject\DictionaryObjectExtensions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helpers\DictionaryObject\FormatType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helpers\DynamicData\DynamicColumnProvider.cs" />
+    <Compile Include="Helpers\DynamicData\DynamicMetaColumn.cs" />
+    <Compile Include="Helpers\DynamicData\DynamicMetaModel.cs" />
+    <Compile Include="Helpers\DynamicData\DynamicMetaTable.cs" />
+    <Compile Include="Helpers\DynamicData\DynamicModelProvider.cs" />
+    <Compile Include="Helpers\DynamicData\DynamicTableProvider.cs" />
+    <Compile Include="Helpers\DynamicData\MetaColumnExtensions.cs" />
+    <Compile Include="Helpers\DynamicPropertyDescriptor.cs" />
+    <Compile Include="Helpers\DynamicTypeDescriptor.cs" />
+    <Compile Include="Helpers\Utilities\DynamicHelper.cs" />
+    <Compile Include="Helpers\Utilities\ExpandoObjectHelper.cs" />
+    <Compile Include="Helpers\Utilities\ObjectExtensions.cs" />
+    <Compile Include="Helpers\Utilities\XmlSerializerHelpers.cs" />
+    <Compile Include="Helpers\XmlToDynamic\DynamicElement.cs" />
+    <Compile Include="Helpers\XmlToDynamic\XElementExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Schema\Behavior\IContentHandlerBehavior.cs" />
+    <Compile Include="Schema\Behavior\IGuard.cs" />
+    <Compile Include="Schema\Behavior\ISupportProcess.cs" />
+    <Compile Include="Schema\Configuration.cs" />
+    <Compile Include="Schema\ContentType.cs" />
+    <Compile Include="Schema\Field.cs" />
+    <Compile Include="Schema\FieldCollection.cs" />
+    <Compile Include="Schema\FileUploaded.cs" />
+    <Compile Include="Schema\Parameter.cs" />
+    <Compile Include="Schema\ParametersCollection.cs" />
+    <Compile Include="Schema\Rules.cs" />
+    <Compile Include="Schema\RulesApplies.cs" />
+    <Compile Include="Schema\RulesRestricion.cs" />
+    <Compile Include="Schema\SelectedItem.cs" />
+    <Compile Include="Schema\Visibility.cs" />
+    <Compile Include="Specifications\AndSpecification.cs" />
+    <Compile Include="Specifications\CompositeSpecification.cs" />
+    <Compile Include="Specifications\ConjunctionSpecification.cs" />
+    <Compile Include="Specifications\DisjunctionSpecification.cs" />
+    <Compile Include="Specifications\ISpecification.cs" />
+    <Compile Include="Specifications\NotSpecification.cs" />
+    <Compile Include="Specifications\OrSpecification.cs" />
+    <Compile Include="Base\DocumentContent.cs" />
+    <Compile Include="Workflows\IContentWorkflow.cs" />
+    <Compile Include="Workflows\Interfaces\IContentDocumentWorkflow.cs" />
+    <Compile Include="Workflows\SignalRNotify.cs" />
+    <Compile Include="Workflows\ValidationResult.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Facture.PuertoBahia.snk" />
+    <None Include="Schema\ContentTypeDefinition.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schema\ContentTypeDefinition.xsx">
+      <DependentUpon>ContentTypeDefinition.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Base\Content.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamlAppDef Include="Workflows\ApprovalWorklow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </XamlAppDef>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

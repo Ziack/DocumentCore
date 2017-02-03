@@ -1,0 +1,15 @@
+C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\bin\Release\DocumentManager.Designer.dll
+C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\bin\Release\DocumentManager.Designer.pdb
+C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\bin\Release\es\DocumentManager.Designer.resources.dll
+C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\bin\Release\DocumentManager.Core.dll
+C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\bin\Release\Newtonsoft.Json.dll
+C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\bin\Release\Microsoft.AspNet.SignalR.Core.dll
+C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\bin\Release\Facture.WorkflowServer.Hubs.dll
+C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\bin\Release\Owin.dll
+C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\bin\Release\DocumentManager.Core.pdb
+C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\obj\Release\es\DocumentManager.Designer.resources.dll
+C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\obj\Release\DocumentManager.Designer.dll
+C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\obj\Release\DocumentManager.Designer.pdb
+C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\obj\Release\DocumentManager.Designer.csprojResolveAssemblyReference.cache
+C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\bin\Release\Facture.WorkflowServer.Extensions.dll
+C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\bin\Release\log4net.dll

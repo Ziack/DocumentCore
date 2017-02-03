@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{83F53A13-60A9-4E6A-85B7-7BA65B954DFD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DocumentManager.Designer</RootNamespace>
+    <AssemblyName>DocumentManager.Designer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SchemaDesigner.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\Libs\ace\ace.js" />
+    <Content Include="Scripts\Libs\ace\ext-chromevox.js" />
+    <Content Include="Scripts\Libs\ace\ext-elastic_tabstops_lite.js" />
+    <Content Include="Scripts\Libs\ace\ext-emmet.js" />
+    <Content Include="Scripts\Libs\ace\ext-error_marker.js" />
+    <Content Include="Scripts\Libs\ace\ext-keybinding_menu.js" />
+    <Content Include="Scripts\Libs\ace\ext-language_tools.js" />
+    <Content Include="Scripts\Libs\ace\ext-modelist.js" />
+    <Content Include="Scripts\Libs\ace\ext-old_ie.js" />
+    <Content Include="Scripts\Libs\ace\ext-searchbox.js" />
+    <Content Include="Scripts\Libs\ace\ext-settings_menu.js" />
+    <Content Include="Scripts\Libs\ace\ext-spellcheck.js" />
+    <Content Include="Scripts\Libs\ace\ext-split.js" />
+    <Content Include="Scripts\Libs\ace\ext-static_highlight.js" />
+    <Content Include="Scripts\Libs\ace\ext-statusbar.js" />
+    <Content Include="Scripts\Libs\ace\ext-textarea.js" />
+    <Content Include="Scripts\Libs\ace\ext-themelist.js" />
+    <Content Include="Scripts\Libs\ace\ext-whitespace.js" />
+    <Content Include="Scripts\Libs\ace\keybinding-emacs.js" />
+    <Content Include="Scripts\Libs\ace\keybinding-vim.js" />
+    <Content Include="Scripts\Libs\ace\mode-abap.js" />
+    <Content Include="Scripts\Libs\ace\mode-actionscript.js" />
+    <Content Include="Scripts\Libs\ace\mode-ada.js" />
+    <Content Include="Scripts\Libs\ace\mode-apache_conf.js" />
+    <Content Include="Scripts\Libs\ace\mode-asciidoc.js" />
+    <Content Include="Scripts\Libs\ace\mode-assembly_x86.js" />
+    <Content Include="Scripts\Libs\ace\mode-autohotkey.js" />
+    <Content Include="Scripts\Libs\ace\mode-batchfile.js" />
+    <Content Include="Scripts\Libs\ace\mode-c9search.js" />
+    <Content Include="Scripts\Libs\ace\mode-clojure.js" />
+    <Content Include="Scripts\Libs\ace\mode-cobol.js" />
+    <Content Include="Scripts\Libs\ace\mode-coffee.js" />
+    <Content Include="Scripts\Libs\ace\mode-coldfusion.js" />
+    <Content Include="Scripts\Libs\ace\mode-csharp.js" />
+    <Content Include="Scripts\Libs\ace\mode-css.js" />
+    <Content Include="Scripts\Libs\ace\mode-curly.js" />
+    <Content Include="Scripts\Libs\ace\mode-c_cpp.js" />
+    <Content Include="Scripts\Libs\ace\mode-d.js" />
+    <Content Include="Scripts\Libs\ace\mode-dart.js" />
+    <Content Include="Scripts\Libs\ace\mode-diff.js" />
+    <Content Include="Scripts\Libs\ace\mode-django.js" />
+    <Content Include="Scripts\Libs\ace\mode-dot.js" />
+    <Content Include="Scripts\Libs\ace\mode-ejs.js" />
+    <Content Include="Scripts\Libs\ace\mode-erlang.js" />
+    <Content Include="Scripts\Libs\ace\mode-forth.js" />
+    <Content Include="Scripts\Libs\ace\mode-ftl.js" />
+    <Content Include="Scripts\Libs\ace\mode-glsl.js" />
+    <Content Include="Scripts\Libs\ace\mode-golang.js" />
+    <Content Include="Scripts\Libs\ace\mode-groovy.js" />
+    <Content Include="Scripts\Libs\ace\mode-haml.js" />
+    <Content Include="Scripts\Libs\ace\mode-handlebars.js" />
+    <Content Include="Scripts\Libs\ace\mode-haskell.js" />
+    <Content Include="Scripts\Libs\ace\mode-haxe.js" />
+    <Content Include="Scripts\Libs\ace\mode-html.js" />
+    <Content Include="Scripts\Libs\ace\mode-html_completions.js" />
+    <Content Include="Scripts\Libs\ace\mode-html_ruby.js" />
+    <Content Include="Scripts\Libs\ace\mode-ini.js" />
+    <Content Include="Scripts\Libs\ace\mode-jack.js" />
+    <Content Include="Scripts\Libs\ace\mode-jade.js" />
+    <Content Include="Scripts\Libs\ace\mode-java.js" />
+    <Content Include="Scripts\Libs\ace\mode-javascript.js" />
+    <Content Include="Scripts\Libs\ace\mode-json.js" />
+    <Content Include="Scripts\Libs\ace\mode-jsoniq.js" />
+    <Content Include="Scripts\Libs\ace\mode-jsp.js" />
+    <Content Include="Scripts\Libs\ace\mode-jsx.js" />
+    <Content Include="Scripts\Libs\ace\mode-julia.js" />
+    <Content Include="Scripts\Libs\ace\mode-latex.js" />
+    <Content Include="Scripts\Libs\ace\mode-less.js" />
+    <Content Include="Scripts\Libs\ace\mode-liquid.js" />
+    <Content Include="Scripts\Libs\ace\mode-lisp.js" />
+    <Content Include="Scripts\Libs\ace\mode-livescript.js" />
+    <Content Include="Scripts\Libs\ace\mode-logiql.js" />
+    <Content Include="Scripts\Libs\ace\mode-lsl.js" />
+    <Content Include="Scripts\Libs\ace\mode-lua.js" />
+    <Content Include="Scripts\Libs\ace\mode-luapage.js" />
+    <Content Include="Scripts\Libs\ace\mode-lucene.js" />
+    <Content Include="Scripts\Libs\ace\mode-makefile.js" />
+    <Content Include="Scripts\Libs\ace\mode-markdown.js" />
+    <Content Include="Scripts\Libs\ace\mode-matlab.js" />
+    <Content Include="Scripts\Libs\ace\mode-mel.js" />
+    <Content Include="Scripts\Libs\ace\mode-mushcode.js" />
+    <Content Include="Scripts\Libs\ace\mode-mushcode_high_rules.js" />
+    <Content Include="Scripts\Libs\ace\mode-mysql.js" />
+    <Content Include="Scripts\Libs\ace\mode-nix.js" />
+    <Content Include="Scripts\Libs\ace\mode-objectivec.js" />
+    <Content Include="Scripts\Libs\ace\mode-ocaml.js" />
+    <Content Include="Scripts\Libs\ace\mode-pascal.js" />
+    <Content Include="Scripts\Libs\ace\mode-perl.js" />
+    <Content Include="Scripts\Libs\ace\mode-pgsql.js" />
+    <Content Include="Scripts\Libs\ace\mode-php.js" />
+    <Content Include="Scripts\Libs\ace\mode-plain_text.js" />
+    <Content Include="Scripts\Libs\ace\mode-powershell.js" />
+    <Content Include="Scripts\Libs\ace\mode-prolog.js" />
+    <Content Include="Scripts\Libs\ace\mode-properties.js" />
+    <Content Include="Scripts\Libs\ace\mode-protobuf.js" />
+    <Content Include="Scripts\Libs\ace\mode-python.js" />
+    <Content Include="Scripts\Libs\ace\mode-r.js" />
+    <Content Include="Scripts\Libs\ace\mode-rdoc.js" />
+    <Content Include="Scripts\Libs\ace\mode-rhtml.js" />
+    <Content Include="Scripts\Libs\ace\mode-ruby.js" />
+    <Content Include="Scripts\Libs\ace\mode-rust.js" />
+    <Content Include="Scripts\Libs\ace\mode-sass.js" />
+    <Content Include="Scripts\Libs\ace\mode-scad.js" />
+    <Content Include="Scripts\Libs\ace\mode-scala.js" />
+    <Content Include="Scripts\Libs\ace\mode-scheme.js" />
+    <Content Include="Scripts\Libs\ace\mode-scss.js" />
+    <Content Include="Scripts\Libs\ace\mode-sh.js" />
+    <Content Include="Scripts\Libs\ace\mode-sjs.js" />
+    <Content Include="Scripts\Libs\ace\mode-snippets.js" />
+    <Content Include="Scripts\Libs\ace\mode-soy_template.js" />
+    <Content Include="Scripts\Libs\ace\mode-space.js" />
+    <Content Include="Scripts\Libs\ace\mode-sql.js" />
+    <Content Include="Scripts\Libs\ace\mode-stylus.js" />
+    <Content Include="Scripts\Libs\ace\mode-svg.js" />
+    <Content Include="Scripts\Libs\ace\mode-tcl.js" />
+    <Content Include="Scripts\Libs\ace\mode-tex.js" />
+    <Content Include="Scripts\Libs\ace\mode-text.js" />
+    <Content Include="Scripts\Libs\ace\mode-textile.js" />
+    <Content Include="Scripts\Libs\ace\mode-toml.js" />
+    <Content Include="Scripts\Libs\ace\mode-twig.js" />
+    <Content Include="Scripts\Libs\ace\mode-typescript.js" />
+    <Content Include="Scripts\Libs\ace\mode-vbscript.js" />
+    <Content Include="Scripts\Libs\ace\mode-velocity.js" />
+    <Content Include="Scripts\Libs\ace\mode-verilog.js" />
+    <Content Include="Scripts\Libs\ace\mode-vhdl.js" />
+    <Content Include="Scripts\Libs\ace\mode-xml.js" />
+    <Content Include="Scripts\Libs\ace\mode-xquery.js" />
+    <Content Include="Scripts\Libs\ace\mode-yaml.js" />
+    <Content Include="Scripts\Libs\ace\snippets\abap.js" />
+    <Content Include="Scripts\Libs\ace\snippets\actionscript.js" />
+    <Content Include="Scripts\Libs\ace\snippets\ada.js" />
+    <Content Include="Scripts\Libs\ace\snippets\apache_conf.js" />
+    <Content Include="Scripts\Libs\ace\snippets\asciidoc.js" />
+    <Content Include="Scripts\Libs\ace\snippets\assembly_x86.js" />
+    <Content Include="Scripts\Libs\ace\snippets\autohotkey.js" />
+    <Content Include="Scripts\Libs\ace\snippets\batchfile.js" />
+    <Content Include="Scripts\Libs\ace\snippets\c9search.js" />
+    <Content Include="Scripts\Libs\ace\snippets\clojure.js" />
+    <Content Include="Scripts\Libs\ace\snippets\cobol.js" />
+    <Content Include="Scripts\Libs\ace\snippets\coffee.js" />
+    <Content Include="Scripts\Libs\ace\snippets\coldfusion.js" />
+    <Content Include="Scripts\Libs\ace\snippets\csharp.js" />
+    <Content Include="Scripts\Libs\ace\snippets\css.js" />
+    <Content Include="Scripts\Libs\ace\snippets\curly.js" />
+    <Content Include="Scripts\Libs\ace\snippets\c_cpp.js" />
+    <Content Include="Scripts\Libs\ace\snippets\d.js" />
+    <Content Include="Scripts\Libs\ace\snippets\dart.js" />
+    <Content Include="Scripts\Libs\ace\snippets\diff.js" />
+    <Content Include="Scripts\Libs\ace\snippets\django.js" />
+    <Content Include="Scripts\Libs\ace\snippets\dot.js" />
+    <Content Include="Scripts\Libs\ace\snippets\ejs.js" />
+    <Content Include="Scripts\Libs\ace\snippets\erlang.js" />
+    <Content Include="Scripts\Libs\ace\snippets\forth.js" />
+    <Content Include="Scripts\Libs\ace\snippets\ftl.js" />
+    <Content Include="Scripts\Libs\ace\snippets\glsl.js" />
+    <Content Include="Scripts\Libs\ace\snippets\golang.js" />
+    <Content Include="Scripts\Libs\ace\snippets\groovy.js" />
+    <Content Include="Scripts\Libs\ace\snippets\haml.js" />
+    <Content Include="Scripts\Libs\ace\snippets\handlebars.js" />
+    <Content Include="Scripts\Libs\ace\snippets\haskell.js" />
+    <Content Include="Scripts\Libs\ace\snippets\haxe.js" />
+    <Content Include="Scripts\Libs\ace\snippets\html.js" />
+    <Content Include="Scripts\Libs\ace\snippets\html_completions.js" />
+    <Content Include="Scripts\Libs\ace\snippets\html_ruby.js" />
+    <Content Include="Scripts\Libs\ace\snippets\ini.js" />
+    <Content Include="Scripts\Libs\ace\snippets\jack.js" />
+    <Content Include="Scripts\Libs\ace\snippets\jade.js" />
+    <Content Include="Scripts\Libs\ace\snippets\java.js" />
+    <Content Include="Scripts\Libs\ace\snippets\javascript.js" />
+    <Content Include="Scripts\Libs\ace\snippets\json.js" />
+    <Content Include="Scripts\Libs\ace\snippets\jsoniq.js" />
+    <Content Include="Scripts\Libs\ace\snippets\jsp.js" />
+    <Content Include="Scripts\Libs\ace\snippets\jsx.js" />
+    <Content Include="Scripts\Libs\ace\snippets\julia.js" />
+    <Content Include="Scripts\Libs\ace\snippets\latex.js" />
+    <Content Include="Scripts\Libs\ace\snippets\less.js" />
+    <Content Include="Scripts\Libs\ace\snippets\liquid.js" />
+    <Content Include="Scripts\Libs\ace\snippets\lisp.js" />
+    <Content Include="Scripts\Libs\ace\snippets\livescript.js" />
+    <Content Include="Scripts\Libs\ace\snippets\logiql.js" />
+    <Content Include="Scripts\Libs\ace\snippets\lsl.js" />
+    <Content Include="Scripts\Libs\ace\snippets\lua.js" />
+    <Content Include="Scripts\Libs\ace\snippets\luapage.js" />
+    <Content Include="Scripts\Libs\ace\snippets\lucene.js" />
+    <Content Include="Scripts\Libs\ace\snippets\makefile.js" />
+    <Content Include="Scripts\Libs\ace\snippets\markdown.js" />
+    <Content Include="Scripts\Libs\ace\snippets\matlab.js" />
+    <Content Include="Scripts\Libs\ace\snippets\mel.js" />
+    <Content Include="Scripts\Libs\ace\snippets\mushcode.js" />
+    <Content Include="Scripts\Libs\ace\snippets\mushcode_high_rules.js" />
+    <Content Include="Scripts\Libs\ace\snippets\mysql.js" />
+    <Content Include="Scripts\Libs\ace\snippets\nix.js" />
+    <Content Include="Scripts\Libs\ace\snippets\objectivec.js" />
+    <Content Include="Scripts\Libs\ace\snippets\ocaml.js" />
+    <Content Include="Scripts\Libs\ace\snippets\pascal.js" />
+    <Content Include="Scripts\Libs\ace\snippets\perl.js" />
+    <Content Include="Scripts\Libs\ace\snippets\pgsql.js" />
+    <Content Include="Scripts\Libs\ace\snippets\php.js" />
+    <Content Include="Scripts\Libs\ace\snippets\plain_text.js" />
+    <Content Include="Scripts\Libs\ace\snippets\powershell.js" />
+    <Content Include="Scripts\Libs\ace\snippets\prolog.js" />
+    <Content Include="Scripts\Libs\ace\snippets\properties.js" />
+    <Content Include="Scripts\Libs\ace\snippets\protobuf.js" />
+    <Content Include="Scripts\Libs\ace\snippets\python.js" />
+    <Content Include="Scripts\Libs\ace\snippets\r.js" />
+    <Content Include="Scripts\Libs\ace\snippets\rdoc.js" />
+    <Content Include="Scripts\Libs\ace\snippets\rhtml.js" />
+    <Content Include="Scripts\Libs\ace\snippets\ruby.js" />
+    <Content Include="Scripts\Libs\ace\snippets\rust.js" />
+    <Content Include="Scripts\Libs\ace\snippets\sass.js" />
+    <Content Include="Scripts\Libs\ace\snippets\scad.js" />
+    <Content Include="Scripts\Libs\ace\snippets\scala.js" />
+    <Content Include="Scripts\Libs\ace\snippets\scheme.js" />
+    <Content Include="Scripts\Libs\ace\snippets\scss.js" />
+    <Content Include="Scripts\Libs\ace\snippets\sh.js" />
+    <Content Include="Scripts\Libs\ace\snippets\sjs.js" />
+    <Content Include="Scripts\Libs\ace\snippets\snippets.js" />
+    <Content Include="Scripts\Libs\ace\snippets\soy_template.js" />
+    <Content Include="Scripts\Libs\ace\snippets\space.js" />
+    <Content Include="Scripts\Libs\ace\snippets\sql.js" />
+    <Content Include="Scripts\Libs\ace\snippets\stylus.js" />
+    <Content Include="Scripts\Libs\ace\snippets\svg.js" />
+    <Content Include="Scripts\Libs\ace\snippets\tcl.js" />
+    <Content Include="Scripts\Libs\ace\snippets\tex.js" />
+    <Content Include="Scripts\Libs\ace\snippets\text.js" />
+    <Content Include="Scripts\Libs\ace\snippets\textile.js" />
+    <Content Include="Scripts\Libs\ace\snippets\toml.js" />
+    <Content Include="Scripts\Libs\ace\snippets\twig.js" />
+    <Content Include="Scripts\Libs\ace\snippets\typescript.js" />
+    <Content Include="Scripts\Libs\ace\snippets\vbscript.js" />
+    <Content Include="Scripts\Libs\ace\snippets\velocity.js" />
+    <Content Include="Scripts\Libs\ace\snippets\verilog.js" />
+    <Content Include="Scripts\Libs\ace\snippets\vhdl.js" />
+    <Content Include="Scripts\Libs\ace\snippets\xml.js" />
+    <Content Include="Scripts\Libs\ace\snippets\xquery.js" />
+    <Content Include="Scripts\Libs\ace\snippets\yaml.js" />
+    <Content Include="Scripts\Libs\ace\theme-ambiance.js" />
+    <Content Include="Scripts\Libs\ace\theme-chaos.js" />
+    <Content Include="Scripts\Libs\ace\theme-chrome.js" />
+    <Content Include="Scripts\Libs\ace\theme-clouds.js" />
+    <Content Include="Scripts\Libs\ace\theme-clouds_midnight.js" />
+    <Content Include="Scripts\Libs\ace\theme-cobalt.js" />
+    <Content Include="Scripts\Libs\ace\theme-crimson_editor.js" />
+    <Content Include="Scripts\Libs\ace\theme-dawn.js" />
+    <Content Include="Scripts\Libs\ace\theme-dreamweaver.js" />
+    <Content Include="Scripts\Libs\ace\theme-eclipse.js" />
+    <Content Include="Scripts\Libs\ace\theme-github.js" />
+    <Content Include="Scripts\Libs\ace\theme-idle_fingers.js" />
+    <Content Include="Scripts\Libs\ace\theme-katzenmilch.js" />
+    <Content Include="Scripts\Libs\ace\theme-kr.js" />
+    <Content Include="Scripts\Libs\ace\theme-kuroir.js" />
+    <Content Include="Scripts\Libs\ace\theme-merbivore.js" />
+    <Content Include="Scripts\Libs\ace\theme-merbivore_soft.js" />
+    <Content Include="Scripts\Libs\ace\theme-monokai.js" />
+    <Content Include="Scripts\Libs\ace\theme-mono_industrial.js" />
+    <Content Include="Scripts\Libs\ace\theme-pastel_on_dark.js" />
+    <Content Include="Scripts\Libs\ace\theme-solarized_dark.js" />
+    <Content Include="Scripts\Libs\ace\theme-solarized_light.js" />
+    <Content Include="Scripts\Libs\ace\theme-terminal.js" />
+    <Content Include="Scripts\Libs\ace\theme-textmate.js" />
+    <Content Include="Scripts\Libs\ace\theme-tomorrow.js" />
+    <Content Include="Scripts\Libs\ace\theme-tomorrow_night.js" />
+    <Content Include="Scripts\Libs\ace\theme-tomorrow_night_blue.js" />
+    <Content Include="Scripts\Libs\ace\theme-tomorrow_night_bright.js" />
+    <Content Include="Scripts\Libs\ace\theme-tomorrow_night_eighties.js" />
+    <Content Include="Scripts\Libs\ace\theme-twilight.js" />
+    <Content Include="Scripts\Libs\ace\theme-vibrant_ink.js" />
+    <Content Include="Scripts\Libs\ace\theme-xcode.js" />
+    <Content Include="Scripts\Libs\ace\worker-coffee.js" />
+    <Content Include="Scripts\Libs\ace\worker-css.js" />
+    <Content Include="Scripts\Libs\ace\worker-javascript.js" />
+    <Content Include="Scripts\Libs\ace\worker-json.js" />
+    <Content Include="Scripts\Libs\ace\worker-lua.js" />
+    <Content Include="Scripts\Libs\ace\worker-php.js" />
+    <Content Include="Scripts\Libs\ace\worker-xquery.js" />
+    <EmbeddedResource Include="Scripts\Alpaca.dotnetnuke.js" />
+    <Content Include="Scripts\Components\alpaca-core\alpaca-bootstrap.css" />
+    <Content Include="Scripts\Components\alpaca-core\alpaca-core.css" />
+    <EmbeddedResource Include="Scripts\Components\alpaca-core\alpaca-core.js" />
+    <Content Include="Scripts\Components\alpaca-core\alpaca-custom-fields.css" />
+    <Content Include="Scripts\Components\alpaca-core\alpaca-jqueryui.css" />
+    <Content Include="Scripts\Components\alpaca-core\alpaca-mobile.css" />
+    <Content Include="Scripts\Components\alpaca-core\component.json.txt" />
+    <Content Include="Scripts\Components\alpaca-core\images\alpaca-icons.png" />
+    <Content Include="Scripts\Components\alpaca-core\images\date.png" />
+    <Content Include="Scripts\Components\alpaca-core\images\down.png" />
+    <Content Include="Scripts\Components\alpaca-core\images\email.png" />
+    <Content Include="Scripts\Components\alpaca-core\images\left.png" />
+    <Content Include="Scripts\Components\alpaca-core\images\phone.png" />
+    <Content Include="Scripts\Components\alpaca-core\images\time.png" />
+    <Content Include="Scripts\Components\alpaca-extras\alpaca-bootstrap.css" />
+    <Content Include="Scripts\Components\alpaca-extras\alpaca-custom-fields.css" />
+    <Content Include="Scripts\Components\alpaca-extras\alpaca-extras.css" />
+    <Content Include="Scripts\Components\alpaca-extras\alpaca-extras.js" />
+    <Content Include="Scripts\Components\alpaca-extras\alpaca-jqueryui.css" />
+    <Content Include="Scripts\Components\alpaca-extras\alpaca-mobile.css" />
+    <Content Include="Scripts\Components\alpaca-extras\component.json.txt" />
+    <Content Include="Scripts\Components\alpaca-extras\images\alpaca-icons.png" />
+    <Content Include="Scripts\Components\alpaca-extras\images\date.png" />
+    <Content Include="Scripts\Components\alpaca-extras\images\down.png" />
+    <Content Include="Scripts\Components\alpaca-extras\images\email.png" />
+    <Content Include="Scripts\Components\alpaca-extras\images\left.png" />
+    <Content Include="Scripts\Components\alpaca-extras\images\phone.png" />
+    <Content Include="Scripts\Components\alpaca-extras\images\time.png" />
+    <Content Include="Scripts\Components\Alpaca\alpaca-bootstrap.css" />
+    <Content Include="Scripts\Components\Alpaca\alpaca-custom-fields.css" />
+    <Content Include="Scripts\Components\Alpaca\alpaca-jqueryui.css" />
+    <Content Include="Scripts\Components\Alpaca\alpaca-mobile.css" />
+    <Content Include="Scripts\Components\Alpaca\alpaca.css" />
+    <Content Include="Styles\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Styles\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Styles\bootstrap\css\bootstrap.css" />
+    <Content Include="Styles\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Styles\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Styles\bootstrap\js\bootstrap.js" />
+    <Content Include="Styles\bootstrap\js\bootstrap.min.js" />
+    <EmbeddedResource Include="Styles\Common.css" />
+    <Content Include="Styles\Alpaca\alpaca-bootstrap.css" />
+    <Content Include="Styles\Alpaca\alpaca-bootstrap.min.css" />
+    <Content Include="Styles\Alpaca\alpaca-core.css" />
+    <Content Include="Styles\Alpaca\alpaca-core.min.css" />
+    <Content Include="Styles\Alpaca\alpaca-custom-fields.css" />
+    <Content Include="Styles\Alpaca\alpaca-custom-fields.min.css" />
+    <Content Include="Styles\Alpaca\alpaca-extras.css" />
+    <Content Include="Styles\Alpaca\alpaca-extras.min.css" />
+    <Content Include="Styles\Alpaca\alpaca-jqueryui.css" />
+    <Content Include="Styles\Alpaca\alpaca-jqueryui.min.css" />
+    <Content Include="Styles\Alpaca\alpaca-mobile.css" />
+    <Content Include="Styles\Alpaca\alpaca-mobile.min.css" />
+    <Content Include="Styles\Alpaca\alpaca.css" />
+    <Content Include="Styles\Alpaca\alpaca.min.css" />
+    <Content Include="Styles\Alpaca\images\alpaca-icons.png" />
+    <Content Include="Styles\Alpaca\images\date.png" />
+    <Content Include="Styles\Alpaca\images\down.png" />
+    <Content Include="Styles\Alpaca\images\email.png" />
+    <Content Include="Styles\Alpaca\images\left.png" />
+    <Content Include="Styles\Alpaca\images\phone.png" />
+    <Content Include="Styles\Alpaca\images\time.png" />
+    <EmbeddedResource Include="Styles\Designer.css" />
+    <EmbeddedResource Include="Styles\Fonts\glyphicons-halflings-regular.svg" />
+    <EmbeddedResource Include="Styles\Glyphicons.css" />
+    <EmbeddedResource Include="Scripts\Components\Alpaca\alpaca.js" />
+    <Content Include="Scripts\Components\Alpaca\component.json.txt" />
+    <Content Include="Scripts\Components\Alpaca\images\alpaca-icons.png" />
+    <Content Include="Scripts\Components\Alpaca\images\date.png" />
+    <Content Include="Scripts\Components\Alpaca\images\down.png" />
+    <Content Include="Scripts\Components\Alpaca\images\email.png" />
+    <Content Include="Scripts\Components\Alpaca\images\left.png" />
+    <Content Include="Scripts\Components\Alpaca\images\phone.png" />
+    <Content Include="Scripts\Components\Alpaca\images\time.png" />
+    <EmbeddedResource Include="Scripts\Designer.js" />
+    <EmbeddedResource Include="Scripts\Libs\jquery.tmpl.js" />
+    <EmbeddedResource Include="Scripts\Knockout.js" />
+    <EmbeddedResource Include="Scripts\Localization\Alpaca.es.js" />
+    <EmbeddedResource Include="Scripts\Localization\Globalize.min.js" />
+    <Content Include="Scripts\timepicker\jquery-ui-timepicker-addon.css" />
+    <Content Include="Scripts\timepicker\jquery-ui-timepicker-addon.js" />
+    <Content Include="Scripts\wysiwyg\jquery.wysiwyg.bg.png" />
+    <Content Include="Scripts\wysiwyg\jquery.wysiwyg.css" />
+    <Content Include="Scripts\wysiwyg\jquery.wysiwyg.gif" />
+    <Content Include="Scripts\wysiwyg\jquery.wysiwyg.jpg" />
+    <Content Include="Scripts\wysiwyg\jquery.wysiwyg.js" />
+    <Content Include="Scripts\wysiwyg\jquery.wysiwyg.modal.css" />
+    <Content Include="Scripts\wysiwyg\jquery.wysiwyg.no-alpha.gif" />
+    <Content Include="Scripts\wysiwyg\jquery.wysiwyg.old-school.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\Components\alpaca-core\component.json" />
+    <None Include="Scripts\Components\alpaca-extras\component.json" />
+    <None Include="Scripts\Components\Alpaca\component.json" />
+    <None Include="Styles\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Styles\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Styles\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <EmbeddedResource Include="Styles\Fonts\glyphicons-halflings-regular.eot" />
+    <EmbeddedResource Include="Styles\Fonts\glyphicons-halflings-regular.ttf" />
+    <EmbeddedResource Include="Styles\Fonts\glyphicons-halflings-regular.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DocumentManager.Core\DocumentManager.Core.csproj">
+      <Project>{66ebbbf9-a74a-4565-bca1-916d83820349}</Project>
+      <Name>DocumentManager.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

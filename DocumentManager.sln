@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManager.Core", "DocumentManager.Core\DocumentManager.Core.csproj", "{66EBBBF9-A74A-4565-BCA1-916D83820349}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{53C98C13-CB37-4868-8293-9598D94CCEBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManager.UI", "..\..\..\DesktopModules\DocumentManager.UI.Controls\DocumentManager.UI.csproj", "{460C3EE0-7CC2-4F84-AABC-1A235413C139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManager.Designer", "DocumentManager.Designer\DocumentManager.Designer.csproj", "{83F53A13-60A9-4E6A-85B7-7BA65B954DFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuertoBahia.Core.Utils", "..\..\..\DesktopModules\PuertoBahia.Core.Utils\PuertoBahia.Core.Utils.csproj", "{A7F2A5CB-DD54-4F73-82CD-DF09515EC849}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://fctfs:8080/tfs/facture
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DocumentManager.Core\\DocumentManager.Core.csproj
+		SccProjectTopLevelParentUniqueName1 = DocumentManager.sln
+		SccProjectName1 = DocumentManager.Core
+		SccLocalPath1 = DocumentManager.Core
+		SccProjectUniqueName2 = ..\\..\\..\\DesktopModules\\DocumentManager.UI.Controls\\DocumentManager.UI.csproj
+		SccProjectName2 = DocumentManager.UI.Controls
+		SccLocalPath2 = ..\\..\\..\\DesktopModules\\DocumentManager.UI.Controls
+		SccProjectUniqueName3 = DocumentManager.Designer\\DocumentManager.Designer.csproj
+		SccProjectName3 = DocumentManager.Designer
+		SccLocalPath3 = DocumentManager.Designer
+		SccProjectUniqueName4 = ..\\..\\..\\DesktopModules\\PuertoBahia.Core.Utils\\PuertoBahia.Core.Utils.csproj
+		SccProjectTopLevelParentUniqueName4 = DocumentManager.sln
+		SccProjectName4 = ../../../PuertoBahia_(TOS)/trunk/Common/PuertoBahia.Core.Utils
+		SccLocalPath4 = ..\\..\\..\\DesktopModules\\PuertoBahia.Core.Utils
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66EBBBF9-A74A-4565-BCA1-916D83820349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66EBBBF9-A74A-4565-BCA1-916D83820349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66EBBBF9-A74A-4565-BCA1-916D83820349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66EBBBF9-A74A-4565-BCA1-916D83820349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{460C3EE0-7CC2-4F84-AABC-1A235413C139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460C3EE0-7CC2-4F84-AABC-1A235413C139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460C3EE0-7CC2-4F84-AABC-1A235413C139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460C3EE0-7CC2-4F84-AABC-1A235413C139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F53A13-60A9-4E6A-85B7-7BA65B954DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F53A13-60A9-4E6A-85B7-7BA65B954DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F53A13-60A9-4E6A-85B7-7BA65B954DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F53A13-60A9-4E6A-85B7-7BA65B954DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F2A5CB-DD54-4F73-82CD-DF09515EC849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F2A5CB-DD54-4F73-82CD-DF09515EC849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F2A5CB-DD54-4F73-82CD-DF09515EC849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F2A5CB-DD54-4F73-82CD-DF09515EC849}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66EBBBF9-A74A-4565-BCA1-916D83820349} = {53C98C13-CB37-4868-8293-9598D94CCEBD}
+		{A7F2A5CB-DD54-4F73-82CD-DF09515EC849} = {53C98C13-CB37-4868-8293-9598D94CCEBD}
+	EndGlobalSection
+EndGlobal
