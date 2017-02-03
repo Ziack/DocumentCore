@@ -1,4 +1,0 @@
-obj\Debug\_DocumentManager.Core.g.cs
-obj\Debug\ApprovalWorklow.g.cs
-obj\Debug\DocumentManager.Core.Workflows_ApprovalWorklow_BeforeInitializeComponentHelper.cs
-C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Core\obj\Debug\DocumentManager.Core.Workflows_ApprovalWorklow_CompiledExpressionRoot.cs

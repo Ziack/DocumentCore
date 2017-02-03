@@ -1,2 +1,0 @@
-obj\Debug\ApprovalWorklow.g.xaml
-obj\Debug\DocumentManager.Core.Workflows_ApprovalWorklow_BeforeInitializeComponentHelper.txt

@@ -1,7 +1,0 @@
-C:\inetpub\dotnetnuke\FactureSource\Modulos\bin\DocumentManager.Designer.dll
-C:\inetpub\dotnetnuke\FactureSource\Modulos\bin\DocumentManager.Designer.pdb
-C:\inetpub\dotnetnuke\FactureSource\Modulos\bin\es\DocumentManager.Designer.resources.dll
-C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\obj\Debug\DocumentManager.Designer.csprojResolveAssemblyReference.cache
-C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\obj\Debug\es\DocumentManager.Designer.resources.dll
-C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\obj\Debug\DocumentManager.Designer.dll
-C:\inetpub\dotnetnuke\FactureSource\Modulos\DocumentManager\DocumentManager.Designer\obj\Debug\DocumentManager.Designer.pdb
