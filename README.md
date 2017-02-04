@@ -1,4 +1,13 @@
-# DocumentCore
+# Documents.Core
+
+Documents.Core provides a easiest way to generate forms for web and mobile applications. It uses XML Schema to generate great looking user interfaces on top of ASP.NET.
+
+Everything you need is provided out of the box. Documents.Core comes pre-stocked with a large library of controls, templates, layouts and features to make rendering XML-driven forms easy. It is designed around an extensible object-oriented pattern, allowing you to implement new controls, templates and custom data persistence for your projects.
+
+# How do I use Alpaca?
+```PM
+PM> Install-Package Documents.Core
+```
 
 ```xml
 
