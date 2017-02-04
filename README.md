@@ -4,11 +4,14 @@ Documents.Core provides a easiest way to generate forms for web and mobile appli
 
 Everything you need is provided out of the box. Documents.Core comes pre-stocked with a large library of controls, templates, layouts and features to make rendering XML-driven forms easy. It is designed around an extensible object-oriented pattern, allowing you to implement new controls, templates and custom data persistence for your projects.
 
-# How do I use Alpaca?
+# How do I use Documents.Core?
 ```PM
 PM> Install-Package Documents.Core
 ```
+# Getting Started with Documents.Core
+This section provides a detailed, walk-through tutorial that describes how you might go about building your first Documents.Core form. It isn't all that complicated but this guide goes step-by-step. Because, well... some people are all about step-by-step instructions with lots of details.
 
+## Defining you schema
 ```xml
 
 <?xml version="1.0" encoding="utf-8" ?>
@@ -149,6 +152,8 @@ PM> Install-Package Documents.Core
 
 ```
 
+## Preparing you ASP.NET form
+
 ```csharp
 
 protected void Page_Load(object sender, EventArgs e)
@@ -217,3 +222,5 @@ public void FormViewControls_UpdateItem(String id)
 </asp:FormView>
 
  ```
+ 
+ ## Enjoy!
